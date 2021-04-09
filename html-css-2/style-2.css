@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    height: 100%;
   }
   
   .container-one {
@@ -47,15 +47,6 @@ body {
     margin: 15px 10px;
   }
   
-  /* .box-shadow {
-    width: 100%;
-    height: 200px;
-    background-color: lemonchiffon;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  } */
-  
   .container-three {
     width: auto;
     border: 2px dotted black;
@@ -67,13 +58,14 @@ body {
 
   .circles {
      padding-right: 85%; 
+     
   }
 
   .circle-one {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px dotted black;
+    border: 2px solid black;
     display: block;
     margin: auto;
   }
@@ -88,27 +80,79 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 2px dotted black;
+    border: 2px solid black;
     display: block;
     margin: auto;
+  }
+
+  .circle-two img {
+      width: 80px;
+      height: 80px;
+      padding: 23%;
   }
 
   .circle-three {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px dotted black;
+    border: 2px solid black;
     display: block;
     margin: auto;
   }
 
-
   .container-four {
     width: auto;
     border: 2px dotted black;
-    padding: 25px;
+    padding: 10px;
     box-sizing: border-box ;
     margin: 15px 10px;
     height: 35%;
+    clear: both;
+  }
+
+  .square-four {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(236, 222, 202);
+    display: inline-block;
+  }
+
+  .circle-four {
+      height: 75%;
+      width: 75%;
+      background-color: green;
+      border-radius: 50%;
+  }
+
+  .square-five {
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      padding: 10%;
+      margin: 18%;   
+  }
+
+  .square-five p {
+      text-align: center;
+      color: white;
+      padding-left: 2%;
+      padding-left: 29%;
+        font-size: 3%;
+        margin-top: 73%;
+  }
+
+  .circle-five {
+      height: 50%;
+      width: 50%;
+      background-color: blue;
+      border-radius: 50%;
+      padding: 36%;
+      margin: -22%;
+  }
+
+  .circle-five img {
+      height: 50px;
+      width: 50px;
   }
   
