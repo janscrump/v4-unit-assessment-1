@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git is a system that allows you to keep track of you source code"
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "GitHub is a hosting service similar to Go-Daddy that allows you to store and manage you Git repositories"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+const init = {
+    description:'init initializes the repository that you are currently working on, which means it will start to watch all of the files and directories in that location for changes.',
+    code: 'git init',
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+const clone = {
+    description: 'clone allows you to make coppies of existing repositories on GitHub',
+    code: 'git clone followed by the link the of the repository you are wishing to clone',
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+const status = {
+    description: 'git status allows you to check which stage you are on when pushing to GitGhub',
+    code: 'git status',
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+const add = {
+    description: 'This command tracks any changes you have made to your code',
+    code: 'git add .',
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+const commit = {
+    description: 'git commit saves and commits all of the changes you have made like a checkpoint in a game',
+    code: 'git commit -mflag',
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +104,11 @@
 
 //CODE HERE
 
+const addRemote = {
+    description:' This command allows you to manage repositories that are not on you local disk',
+    code: 'git addRemote',
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +116,8 @@
 */
 
 //CODE HERE
+
+const push = {
+    description: 'git push pushes all of your changes to GitHub',
+    code: 'git push',
+}
