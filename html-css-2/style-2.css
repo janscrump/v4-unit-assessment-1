@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .container-one {
+    width: 100%;
+    background-color: rgb(154, 255, 245) ;
+    padding: 10px;
+    box-sizing: border-box ;
+    padding: 15px;
+    height: 100px;
+  }
+  
+  .square-one {
+    height: 100px;
+    width: 250px;
+    background-color: purple;
+    display: inline-block;
+    border: 2px solid red;
+  }
+  .square-two {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: blue;
+    margin: 0 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  .square-three {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(202, 111, 126);
+    display: inline-block;
+  }
+  
+  .container-two {
+    width: auto;
+    border: 2px dotted black;
+    padding: 25px;
+    box-sizing: border-box ;
+    margin: 15px 10px;
+    height: 27%;
+  }
+
+  .container-heading {
+    margin: 15px 10px;
+  }
+  
+  /* .box-shadow {
+    width: 100%;
+    height: 200px;
+    background-color: lemonchiffon;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  } */
+  
+  .container-three {
+    width: auto;
+    border: 2px dotted black;
+    padding: 25px;
+    box-sizing: border-box ;
+    margin: 15px 10px;
+    height: 54%;
+  }
+
+  .circles {
+     padding-right: 85%; 
+  }
+
+  .circle-one {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dotted black;
+    display: block;
+    margin: auto;
+  }
+
+  .circle-one img {
+      height: 60px;
+      width: 60px;
+      padding: 20%;
+  }
+
+  .circle-two {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px dotted black;
+    display: block;
+    margin: auto;
+  }
+
+  .circle-three {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dotted black;
+    display: block;
+    margin: auto;
+  }
+
+
+  .container-four {
+    width: auto;
+    border: 2px dotted black;
+    padding: 25px;
+    box-sizing: border-box ;
+    margin: 15px 10px;
+    height: 35%;
+  }
+  
