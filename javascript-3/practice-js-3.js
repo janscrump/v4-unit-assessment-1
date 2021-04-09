@@ -3,10 +3,14 @@
 
 //CODE HERE
 
+const groceries = ['apples', 'oranges', 'beans']
+
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
+
+const yourName = 'Janson'
 
 //////////////////STEP 3////////////////////
 /*
@@ -18,6 +22,11 @@
 
 //CODE HERE
 
+function setGroceryListTitle(x) {
+    return `${x} Grocery List.`
+}
+
+
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 
@@ -28,6 +37,10 @@
 
 //CODE HERE
 
+function addItem(item) {
+    displayData()
+}
+
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
@@ -37,6 +50,9 @@
 */
 
 //CODE HERE
+
+function removeItem(index) {
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -50,6 +66,8 @@
 */
 
 //CODE HERE
+
+
 
 
 //////////////////Check out your code!////////////////////

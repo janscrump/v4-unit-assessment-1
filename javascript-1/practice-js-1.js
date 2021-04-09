@@ -42,6 +42,8 @@ function sum(num1, num2) {
 //CODE HERE
 
 function trueOrFalse(data) {
+  
+
 
 }
   
@@ -57,7 +59,11 @@ function trueOrFalse(data) {
 //CODE HERE
 
 function oddChecker(num) {
-  
+  if(num % 2 === 0){
+    return 'the number is even'
+  } else {
+    return 'the number is odd'
+  }
 }
 
 
@@ -143,6 +149,18 @@ let me = {
 
 // CODE HERE
 
+function bigOrSmall(arr) {
+  let answers = []
+  for(let i = 0; i <arr.length; i++){
+  if (arr[i] > 100){
+    answers.push('big');
+  } if (arr[i] <= 100){
+    answers.push('small')
+  } 
+}
+return answers
+}
+
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -155,6 +173,14 @@ let me = {
 */
 
 //CODE HERE
+
+function arrayReverser(arr) {
+  let reversed = []
+  for(let i = arr.length - 1; i >= 0; i--){
+      reversed.push(arr[i]);
+  }
+  return reversed
+}
 
 //////////////////PROBLEM 14////////////////////
 
@@ -215,10 +241,13 @@ function firstItem(array, cb) {
 //CODE HERE
 
 function isItBob(object, cb) {
-  if(object === 'bob'){
-    cb(true)
-  } else cb(false)
+  if(object === 'Bob'){
+  }
+  cb(true)
+  cb(false)
 }
+
+
 
 
 //////////////////PROBLEM 17////////////////////
@@ -265,6 +294,11 @@ function giveMeDoubles(array, cb) {
 //CODE HERE
 
 
-function carFactory(make, model, year){
+function carFactory(make, model, year) {
+  let obj = {
 
+  }
 }
+
+
+  

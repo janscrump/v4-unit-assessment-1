@@ -106,7 +106,7 @@ const commit = {
 
 const addRemote = {
     description:' This command allows you to manage repositories that are not on you local disk',
-    code: 'git addRemote',
+    code: 'git remote add origin',
 }
 
 //////////////////PROBLEM 9////////////////////
