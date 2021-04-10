@@ -23,9 +23,8 @@ const yourName = 'Janson'
 //CODE HERE
 
 function setGroceryListTitle(x) {
-    return `${x} Grocery List.`
+    return x + "'s Grocery List"
 }
-
 
 //////////////////STEP 4////////////////////
 /* 
@@ -38,8 +37,12 @@ function setGroceryListTitle(x) {
 //CODE HERE
 
 function addItem(item) {
+    groceries.push(item)
     displayData()
 }
+
+
+
 
 //////////////////STEP 5////////////////////
 /*
@@ -52,6 +55,7 @@ function addItem(item) {
 //CODE HERE
 
 function removeItem(index) {
+    groceries.splice(3, 4)
 }
 
 //////////////////STEP 6////////////////////
@@ -67,8 +71,14 @@ function removeItem(index) {
 
 //CODE HERE
 
-
-
+function checkGroceryCount() {
+    for(let i = 0; i < groceries.length; i++)
+    if(groceries > 5){
+        return 'That looks like a big trip'
+    } if(groceries === 1){
+        return '1 item'
+    }
+}
 
 //////////////////Check out your code!////////////////////
 /*

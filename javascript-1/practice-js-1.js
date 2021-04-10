@@ -42,9 +42,10 @@ function sum(num1, num2) {
 //CODE HERE
 
 function trueOrFalse(data) {
-  
-
-
+  if(data) {
+    return true
+  }
+  else return false
 }
   
 
@@ -260,11 +261,10 @@ function isItBob(object, cb) {
 //CODE HERE
 
 function giveMeDoubles(array, cb) {
-  for(let i = 0; i < array.length; i++) {
-    cb(array)
+  for (var i = 0; i < array.length; i++) {
   }
+  cb(array)
 }
-
 
 //////////////////PROBLEM 18////////////////////
 /*
