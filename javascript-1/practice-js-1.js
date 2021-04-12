@@ -262,6 +262,7 @@ function isItBob(object, cb) {
 
 function giveMeDoubles(array, cb) {
   for (var i = 0; i < array.length; i++) {
+  array[i] = array[i] * 2
   }
   cb(array)
 }
