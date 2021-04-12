@@ -296,9 +296,13 @@ function giveMeDoubles(array, cb) {
 
 function carFactory(make, model, year) {
   let obj = {
-
+    make:'',
+    model:'',
+    year:'',
   }
+  if(year > 2018){
+    obj.isNew = true;
+  } else obj.isNew = false;{
+  }
+  return obj
 }
-
-
-  

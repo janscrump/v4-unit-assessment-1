@@ -72,14 +72,14 @@ function removeItem(index) {
 //CODE HERE
 
 function checkGroceryCount() {
-    for(let i = 0; i < groceries.length; i++)
-    if(groceries > 5){
-        return 'That looks like a big trip'
-    } if(groceries === 1){
-        return '1 item'
-    }
+    for(let i = 0; i < groceries.length; i++){
+     if(groceries[i] > 5){
+         return 'That looks like a big trip';
+     } if(groceries[i] === 1) {
+         return '1 item';
+     }
 }
-
+}
 //////////////////Check out your code!////////////////////
 /*
     Open javascript-3/DO_NOT_EDIT/index.html in your browser.
